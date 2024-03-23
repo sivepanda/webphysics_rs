@@ -1,0 +1,15 @@
+{
+  "name": "webphysics_rs",
+  "version": "1.0.0",
+  "description": "This repo is a quick proof of concept to better understand how WASM can integrate with semi-heavy physics calculations, and the possibility of using it to create a physics engine for three.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.162.0"
+  }
+}
