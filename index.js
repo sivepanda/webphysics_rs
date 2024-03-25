@@ -1,8 +1,8 @@
-import init, { update_position } from '../rust_physics/pkg/rust_physics.js';
+import init, {add} from './pkg/rust_physics.js';
 
 async function main() {
   await init();
-  
+  console.log(add(3, 5)) 
   // Initialize your Three.js scene here
   // Use `update_position` from Rust to update objects in the scene
 }
